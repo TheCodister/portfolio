@@ -1,0 +1,130 @@
+{
+  "profile": {
+    "name": "Ben Nguyen",
+    "title": "Systems Architect // Full Stack Engineer",
+    "github": "https://github.com/TheCodister",
+    "linkedin": "https://www.linkedin.com/in/ng%E1%BB%8Dc-quang-nguy%E1%BB%85n-55a522274/",
+    "email": "quangcuber002@gmail.com"
+  },
+  "experience": [
+    {
+      "company": "Katalon",
+      "role": "Global Technical Product Support",
+      "startDate": "2025-06",
+      "endDate": "Present",
+      "location": "Hybrid",
+      "description": [
+        "Global Technical Support: Resolved product-related issues for international clients through Salesforce ticket systems and live debugging sessions with mostly Indo-china, Indian and Europe customers.",
+        "Client Relationship Management: Collaborated with Customer Success team to maintain strong relationships and ensure high client satisfaction, achieve total CSAT score at 96% and the case closed rate of 90%.",
+        "Environment Reproduction: Recreated client websites and applications to accurately diagnose and debug technical issues in their specific environments.",
+        "Cross-Team Collaboration: Partnered with development and product teams to communicate client issues and implement technical fixes.",
+        "Katalon Studio Product Champion: Handle hard case that have knowledge relating to Katalon Studio, receive escalation internally and work with the developer to quickly resolve the issue.",
+        "Knowledge Base Engineer: Authored and modernized technical support articles for publication on Katalon's official documentation site. Collaborated closely with Technical Writers to maintain and enhance the documentation repository built with Docusaurus, ensuring accuracy, consistency, and developer usability. At the result, more than 20 articles has been published to the official documentation.",
+        "CI/CD Research: Researched emerging technologies including Azure DevOps, Jenkins, Github Actions, and Docker to improve product integration capabilities of the product.",
+        "AI-Powered Development Hackathon: Competed in internal hackathon leveraging Amazon Q for vibe coding a complete project with testing and deployment."
+      ],
+      "technologies": ["Katalon Studio", "Salesforce", "Docusaurus", "Azure DevOps", "Jenkins", "Github Actions", "Docker", "Amazon Q"]
+    },
+    {
+      "company": "Dwarves Foundation",
+      "role": "Frontend Developer",
+      "startDate": "2024-06",
+      "endDate": "2024-10",
+      "location": "Remote",
+      "description": [
+        "Web Application Development: Built scalable, high-performance web applications using Next.js and TypeScript alongside senior engineers.",
+        "Component Development: Created reusable, responsive UI components with TailwindCSS and MaterialUI for design consistency.",
+        "Code Quality Standards: Maintained code quality using ESLint, Prettier, and Git version control best practices.",
+        "Agile Methodology: Participated in daily stand-ups and sprint reviews following Agile development practices."
+      ],
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "MaterialUI", "ESLint", "Prettier", "Git"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "HCMUT - Ho Chi Minh University of Technology",
+      "degree": "B.S. Computer Science",
+      "field": "Software Engineering",
+      "startDate": "2020-10",
+      "endDate": "2025-05",
+      "achievements": [
+        "Dean's List — All Semesters",
+        "1st Place — National Hackathon 2021",
+        "Published research on distributed consensus algorithms",
+        "Teaching Assistant — Advanced Algorithms"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "Java", "C++", "SQL"],
+    "frameworks": ["React", "Next.js", "Node.js", "TailwindCSS", "NestJS", "Express"],
+    "methodologies": ["Agile/Scrum", "Test-Driven Development", "CI/CD", "Microservices", "Event Sourcing"]
+  },
+  "projects": [
+    {
+      "name": "TERMINAL_OS",
+      "description": "A browser-based operating system mimicking 80s CLI environments with a custom file system and process manager.",
+      "techStack": ["React", "Xterm.js", "Firebase", "WebWorkers"],
+      "githubUrl": "https://github.com/quangcuber002/terminal-os",
+      "liveUrl": "https://terminal-os.dev",
+      "highlights": [
+        "Custom virtual file system with persistent storage",
+        "SSH simulation with multiplayer terminal sessions",
+        "5K+ GitHub stars"
+      ]
+    },
+    {
+      "name": "RUSTCHAIN",
+      "description": "Lightweight blockchain implementation in Rust with proof-of-stake consensus and smart contract support.",
+      "techStack": ["Rust", "WebAssembly", "libp2p", "RocksDB"],
+      "githubUrl": "https://github.com/quangcuber002/rustchain",
+      "highlights": [
+        "10,000+ TPS on commodity hardware",
+        "WASM-based smart contract runtime",
+        "Formal verification of consensus protocol"
+      ]
+    },
+    {
+      "name": "NEURAL_CANVAS",
+      "description": "Real-time collaborative drawing app with AI-powered style transfer and procedural generation.",
+      "techStack": ["TypeScript", "WebGL", "TensorFlow.js", "WebRTC"],
+      "githubUrl": "https://github.com/quangcuber002/neural-canvas",
+      "liveUrl": "https://neural-canvas.app",
+      "highlights": [
+        "Sub-16ms frame rendering with WebGL shaders",
+        "Real-time style transfer on client-side GPU",
+        "Featured on Hacker News front page"
+      ]
+    },
+    {
+      "name": "HEXGRID_ENGINE",
+      "description": "High-performance hexagonal grid engine for strategy games with pathfinding and procedural map generation.",
+      "techStack": ["C++", "SDL2", "Lua", "WASM"],
+      "githubUrl": "https://github.com/quangcuber002/hexgrid-engine",
+      "highlights": [
+        "A* pathfinding optimized for hex topologies",
+        "Lua scripting for game logic customization",
+        "Compiles to WASM for browser deployment"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect — Professional",
+      "issuer": "Amazon Web Services",
+      "date": "2023-11",
+      "credentialUrl": "https://aws.amazon.com/verify/123"
+    },
+    {
+      "title": "Certified Kubernetes Administrator",
+      "issuer": "Cloud Native Computing Foundation",
+      "date": "2023-06",
+      "credentialUrl": "https://cncf.io/verify/456"
+    },
+    {
+      "title": "Google Cloud Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "date": "2022-09"
+    }
+  ]
+}
