@@ -9,7 +9,7 @@
   "experience": [
     {
       "company": "Katalon",
-      "role": "Global Technical Product Support",
+      "role": "Technical Product Support Engineer",
       "startDate": "2025-06",
       "endDate": "Present",
       "location": "Hybrid",
@@ -23,7 +23,16 @@
         "CI/CD Research: Researched emerging technologies including Azure DevOps, Jenkins, Github Actions, and Docker to improve product integration capabilities of the product.",
         "AI-Powered Development Hackathon: Competed in internal hackathon leveraging Amazon Q for vibe coding a complete project with testing and deployment."
       ],
-      "technologies": ["Katalon Studio", "Salesforce", "Docusaurus", "Azure DevOps", "Jenkins", "Github Actions", "Docker", "Amazon Q"]
+      "technologies": [
+        "Katalon Studio",
+        "Salesforce",
+        "Docusaurus",
+        "Azure DevOps",
+        "Jenkins",
+        "Github Actions",
+        "Docker",
+        "Amazon Q"
+      ]
     },
     {
       "company": "Dwarves Foundation",
@@ -37,7 +46,15 @@
         "Code Quality Standards: Maintained code quality using ESLint, Prettier, and Git version control best practices.",
         "Agile Methodology: Participated in daily stand-ups and sprint reviews following Agile development practices."
       ],
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "MaterialUI", "ESLint", "Prettier", "Git"]
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "MaterialUI",
+        "ESLint",
+        "Prettier",
+        "Git"
+      ]
     }
   ],
   "education": [
@@ -48,82 +65,132 @@
       "startDate": "2020-10",
       "endDate": "2025-05",
       "achievements": [
-        "Dean's List — All Semesters",
-        "1st Place — National Hackathon 2021",
-        "Published research on distributed consensus algorithms",
-        "Teaching Assistant — Advanced Algorithms"
+        "Computer Science Bachelor Degree",
+        "Gain the highest score for final year project",
+        "Idea was listed in the university's innovation program",
+        "Achieve 3.3 GPA in the final year"
       ]
     }
   ],
   "skills": {
     "languages": ["TypeScript", "JavaScript", "Python", "Java", "C++", "SQL"],
-    "frameworks": ["React", "Next.js", "Node.js", "TailwindCSS", "NestJS", "Express"],
-    "methodologies": ["Agile/Scrum", "Test-Driven Development", "CI/CD", "Microservices", "Event Sourcing"]
+    "frameworks": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "TailwindCSS",
+      "NestJS",
+      "Express"
+    ],
+    "methodologies": [
+      "Agile/Scrum",
+      "Test-Driven Development",
+      "CI/CD",
+      "Microservices",
+      "Event Sourcing"
+    ]
   },
   "projects": [
     {
-      "name": "TERMINAL_OS",
-      "description": "A browser-based operating system mimicking 80s CLI environments with a custom file system and process manager.",
-      "techStack": ["React", "Xterm.js", "Firebase", "WebWorkers"],
-      "githubUrl": "https://github.com/quangcuber002/terminal-os",
-      "liveUrl": "https://terminal-os.dev",
+      "name": "Badminton E-commerce Platform",
+      "description": "Full-stack e-commerce platform with authentication, product management, cart, payment simulation, and AI-powered recommendations.",
+      "techStack": [
+        "Next.js",
+        "PostgreSQL",
+        "Vercel AI SDK",
+        "Neon",
+        "Playwright",
+        "GitHub Actions"
+      ],
+      "githubUrl": "https://github.com/TheCodister/badminton-econ-app",
+      "liveUrl": "https://badminton-econ-app-nkv4.vercel.app/",
       "highlights": [
-        "Custom virtual file system with persistent storage",
-        "SSH simulation with multiplayer terminal sessions",
-        "5K+ GitHub stars"
+        "Designed and implemented end-to-end features including authentication, product management, cart, and payment simulation",
+        "Integrated LLM using Vercel AI SDK to deliver personalized product recommendations",
+        "Led architecture design and deployed on Vercel with CI/CD pipelines"
       ]
     },
     {
-      "name": "RUSTCHAIN",
-      "description": "Lightweight blockchain implementation in Rust with proof-of-stake consensus and smart contract support.",
-      "techStack": ["Rust", "WebAssembly", "libp2p", "RocksDB"],
-      "githubUrl": "https://github.com/quangcuber002/rustchain",
+      "name": "Personal Financial Management App",
+      "description": "Full-stack personal finance app with AI-powered insights, structured LLM-assisted development workflow, and comprehensive automated testing.",
+      "techStack": [
+        "NestJS",
+        "SQLite",
+        "Prisma",
+        "Vercel AI SDK",
+        "Shadcn UI",
+        "Playwright"
+      ],
+      "githubUrl": "https://github.com/TheCodister/financial-management-app",
       "highlights": [
-        "10,000+ TPS on commodity hardware",
-        "WASM-based smart contract runtime",
-        "Formal verification of consensus protocol"
+        "Designed structured requirements and workflow enabling LLM-driven autonomous module generation",
+        "Implemented extensive end-to-end and API tests for dashboard analytics, transaction CRUD, and data integrity",
+        "Integrated Vercel AI SDK for personalized financial insights"
       ]
     },
     {
-      "name": "NEURAL_CANVAS",
-      "description": "Real-time collaborative drawing app with AI-powered style transfer and procedural generation.",
-      "techStack": ["TypeScript", "WebGL", "TensorFlow.js", "WebRTC"],
-      "githubUrl": "https://github.com/quangcuber002/neural-canvas",
-      "liveUrl": "https://neural-canvas.app",
+      "name": "GynGPT",
+      "description": "AI chatbot application built with Gemini 1.5 Pro integration via Google AI Studio API.",
+      "techStack": ["React.js", "Google AI Studio", "TailwindCSS"],
+      "githubUrl": "https://github.com/TheCodister/genui-v2-app.git",
+      "liveUrl": "https://gyn-gpt.vercel.app/",
       "highlights": [
-        "Sub-16ms frame rendering with WebGL shaders",
-        "Real-time style transfer on client-side GPU",
-        "Featured on Hacker News front page"
+        "Built a fully functional AI chatbot utilizing Gemini 1.5 Pro model",
+        "Fine-tuned prompts for better LLM responses",
+        "Optimized client-side rendering for speed"
       ]
     },
     {
-      "name": "HEXGRID_ENGINE",
-      "description": "High-performance hexagonal grid engine for strategy games with pathfinding and procedural map generation.",
-      "techStack": ["C++", "SDL2", "Lua", "WASM"],
-      "githubUrl": "https://github.com/quangcuber002/hexgrid-engine",
+      "name": "Google Fonts Clone",
+      "description": "A clone of Google Fonts core functionality including font search, preview, and download interface.",
+      "techStack": ["Next.js", "RadixUI", "SWR", "TailwindCSS"],
+      "githubUrl": "https://github.com/TheCodister/GGFont-clone.git",
+      "liveUrl": "https://gg-font-clone-thecodisters-projects.vercel.app/",
       "highlights": [
-        "A* pathfinding optimized for hex topologies",
-        "Lua scripting for game logic customization",
-        "Compiles to WASM for browser deployment"
+        "Replicated core Google Fonts experiences including search and live preview",
+        "Implemented font download interface",
+        "Improved loading speed using incremental static regeneration and optimized API calls"
+      ]
+    },
+    {
+      "name": "Generative UI - Movie Bot",
+      "description": "Movie recommendation chatbot that combines LLM responses with dynamic Generative UI components.",
+      "techStack": ["Next.js", "Radix UI", "Vercel AI SDK", "SWR"],
+      "githubUrl": "https://github.com/TheCodister/genui-v2-app.git",
+      "highlights": [
+        "Built an LLM-powered chatbot to recommend movies using the OMDB API",
+        "Used Generative UI to render dynamic interactive components instead of plain text",
+        "Enhanced UX and reduced load time via ISR and SWR"
+      ]
+    },
+    {
+      "name": "Money Converter App",
+      "description": "Currency conversion app supporting real-time exchange operations and transaction history tracking.",
+      "techStack": ["React.js", "Hero UI", "Express.js", "React Query"],
+      "githubUrl": "https://github.com/TheCodister/genui-v2-app.git",
+      "highlights": [
+        "Developed real-time currency conversion with detailed history tracking",
+        "Built backend APIs with Express.js for conversion workflows",
+        "Improved speed and responsiveness using React Query"
       ]
     }
   ],
   "certifications": [
     {
-      "title": "AWS Certified Solutions Architect — Professional",
-      "issuer": "Amazon Web Services",
-      "date": "2023-11",
-      "credentialUrl": "https://aws.amazon.com/verify/123"
+      "title": "Gemini Certified Faculty",
+      "issuer": "Google AI",
+      "date": "2026-02",
+      "credentialUrl": "https://edu.google.accredible.com/7e6fc98f-c824-44b0-82b7-200802f20f17?key=64460ac268fde1e032ad8a5d36374c84ecea40a153eee65c88910056126bd3c1#acc.nyhguW4Z"
     },
     {
-      "title": "Certified Kubernetes Administrator",
-      "issuer": "Cloud Native Computing Foundation",
-      "date": "2023-06",
-      "credentialUrl": "https://cncf.io/verify/456"
+      "title": "Katalon Practitioner Level Certification",
+      "issuer": "Katalon",
+      "date": "2025-08",
+      "credentialUrl": "https://academy.katalon.com/mcertificate/686345dfcabe6"
     },
     {
-      "title": "Google Cloud Professional Data Engineer",
-      "issuer": "Google Cloud",
+      "title": "IELTS 7.0",
+      "issuer": "British Council",
       "date": "2022-09"
     }
   ]
