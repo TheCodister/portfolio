@@ -10,7 +10,7 @@ interface ProjectsSectionProps {
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
-    <section className="py-20">
+    <section id="projects" className="py-20">
       <SectionHeader title="PROJECTS" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, i) => (
@@ -22,11 +22,11 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
             transition={{ delay: i * 0.1, duration: 0.4, ease: [0.19, 1, 0.22, 1] }}
           >
             <TerminalCard title={project.name}>
-              <p className="font-mono text-sm text-foreground mb-3">{project.description}</p>
-              <ul className="space-y-1 mb-4">
+              <p className="prose-text text-sm mb-3">{project.description}</p>
+              <ul className="space-y-1.5 mb-4">
                 {project.highlights.map((h, j) => (
-                  <li key={j} className="font-mono text-xs text-muted-foreground">
-                    <span className="text-primary mr-2">→</span>
+                  <li key={j} className="flex gap-2 prose-text text-xs text-muted-foreground">
+                    <span className="font-mono text-primary shrink-0">→</span>
                     {h}
                   </li>
                 ))}

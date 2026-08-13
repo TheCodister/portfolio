@@ -2,6 +2,7 @@ import type { Experience } from "@/types/portfolio";
 import { motion } from "framer-motion";
 import { SectionHeader } from "./SectionHeader";
 import { TerminalCard } from "./TerminalCard";
+import { LabeledLine } from "./LabeledLine";
 
 interface ExperienceSectionProps {
   experience: Experience[];
@@ -9,7 +10,7 @@ interface ExperienceSectionProps {
 
 export function ExperienceSection({ experience }: ExperienceSectionProps) {
   return (
-    <section className="py-20">
+    <section id="experience" className="py-20">
       <SectionHeader title="EXPERIENCE" />
       <div className="space-y-6">
         {experience.map((exp, i) => (
@@ -29,9 +30,9 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
               </div>
               <ul className="space-y-1 mb-4">
                 {exp.description.map((line, j) => (
-                  <li key={j} className="font-mono text-sm text-foreground py-2">
-                    <span className="text-muted-foreground mr-2">$</span>
-                    {line}
+                  <li key={j} className="flex gap-2 py-2">
+                    <span className="font-mono text-muted-foreground shrink-0">$</span>
+                    <LabeledLine text={line} />
                   </li>
                 ))}
               </ul>

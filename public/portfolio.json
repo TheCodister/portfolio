@@ -9,7 +9,7 @@
   "experience": [
     {
       "company": "Katalon",
-      "role": "Technical Product Support Engineer",
+      "role": "Product Support Specialist",
       "startDate": "2025-06",
       "endDate": "Present",
       "location": "Hybrid",
@@ -35,10 +35,22 @@
       ]
     },
     {
+      "company": "Intelli Technologies",
+      "role": "Mobile Application Developer",
+      "startDate": "2024-11",
+      "endDate": "2025-01",
+      "location": "Remote",
+      "description": [
+        "Flutter Research: Researched Flutter development for cross-platform mobile app delivery.",
+        "Map Integration: Implemented ArcGIS map products into a Flutter application."
+      ],
+      "technologies": ["Flutter", "ArcGIS"]
+    },
+    {
       "company": "Dwarves Foundation",
       "role": "Frontend Developer",
       "startDate": "2024-06",
-      "endDate": "2024-10",
+      "endDate": "2024-08",
       "location": "Remote",
       "description": [
         "Web Application Development: Built scalable, high-performance web applications using Next.js and TypeScript alongside senior engineers.",
@@ -91,6 +103,46 @@
     ]
   },
   "projects": [
+    {
+      "name": "Kally for Deal Desk",
+      "description": "Slack-native AI teammate that automates Katalon's Deal Desk vendor-setup and SLA workflows, acting on Jira, Confluence, and Salesforce as the requesting human with human-gated approvals on every write.",
+      "techStack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "OpenCode",
+        "MCP",
+        "Slack API",
+        "Jira/Confluence/Salesforce APIs"
+      ],
+      "highlights": [
+        "Automated Deal Desk vendor-form intake and fill from a Slack mention, grounded in the Deal Desk Confluence KB",
+        "Built Jira/Confluence approval-gated write flow so every automated action stays attributable and revocable",
+        "Shipped SLA sweep automation (ETA flags + stakeholder reminders) on a timezone-aware cron schedule"
+      ]
+    },
+    {
+      "name": "Forge Fitness",
+      "description": "Full-stack workout management system for creating reusable workout templates, scheduling training sessions, and tracking exercise performance against planned targets.",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "NextAuth",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Vitest",
+        "Playwright"
+      ],
+      "githubUrl": "https://github.com/TheCodister/forge-fitness",
+      "liveUrl": "https://forge-fitness-lemon.vercel.app",
+      "highlights": [
+        "Modeled workout templates, scheduled sessions, and a 100+ exercise catalog with Prisma/PostgreSQL",
+        "Built JWT-based auth and planned-vs-actual performance tracking with progress reports",
+        "Covered flows with Vitest unit tests and Playwright end-to-end tests"
+      ]
+    },
     {
       "name": "Badminton E-commerce Platform",
       "description": "Full-stack e-commerce platform with authentication, product management, cart, payment simulation, and AI-powered recommendations.",
@@ -177,9 +229,39 @@
   ],
   "certifications": [
     {
+      "title": "Katalon Professional Certification",
+      "issuer": "Katalon",
+      "date": "2026-07",
+      "expires": "2028-07",
+      "credentialId": "6a6b402450a40"
+    },
+    {
+      "title": "Certificate of completion: Introduction to Subagents",
+      "issuer": "Anthropic",
+      "date": "2026-05",
+      "credentialId": "ihhno3anm9i4"
+    },
+    {
+      "title": "Building with the Claude API",
+      "issuer": "Anthropic",
+      "date": "2026-05",
+      "credentialId": "eppjaetauh86"
+    },
+    {
+      "title": "Claude 101",
+      "issuer": "Anthropic",
+      "date": "2026-04"
+    },
+    {
+      "title": "Claude Code 101",
+      "issuer": "Anthropic",
+      "date": "2026-04"
+    },
+    {
       "title": "Gemini Certified Faculty",
       "issuer": "Google AI",
       "date": "2026-02",
+      "expires": "2029-02",
       "credentialUrl": "https://edu.google.accredible.com/7e6fc98f-c824-44b0-82b7-200802f20f17?key=64460ac268fde1e032ad8a5d36374c84ecea40a153eee65c88910056126bd3c1#acc.nyhguW4Z"
     },
     {

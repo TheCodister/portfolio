@@ -10,7 +10,7 @@ interface CertificationsSectionProps {
 
 export function CertificationsSection({ certifications }: CertificationsSectionProps) {
   return (
-    <section className="py-20">
+    <section id="certifications" className="py-20">
       <SectionHeader title="CERTIFICATIONS" />
       <div className="space-y-4">
         {certifications.map((cert, i) => (
@@ -26,10 +26,10 @@ export function CertificationsSection({ certifications }: CertificationsSectionP
                 <Award size={18} className="text-accent mt-0.5 flex-shrink-0" />
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-                    <span className="font-mono text-sm text-foreground">{cert.title}</span>
+                    <span className="prose-text text-sm font-medium">{cert.title}</span>
                     <span className="font-mono text-xs text-muted-foreground">{cert.date}</span>
                   </div>
-                  <div className="font-mono text-xs text-secondary mt-1">{cert.issuer}</div>
+                  <div className="prose-text text-xs text-secondary mt-1">{cert.issuer}</div>
                   {cert.credentialUrl && (
                     <a
                       href={cert.credentialUrl}

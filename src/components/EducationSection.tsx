@@ -9,7 +9,7 @@ interface EducationSectionProps {
 
 export function EducationSection({ education }: EducationSectionProps) {
   return (
-    <section className="py-20">
+    <section id="education" className="py-20">
       <SectionHeader title="EDUCATION" />
       <div className="space-y-6">
         {education.map((edu, i) => (
@@ -29,10 +29,10 @@ export function EducationSection({ education }: EducationSectionProps) {
                   {edu.startDate} → {edu.endDate}
                 </span>
               </div>
-              <ul className="space-y-1">
+              <ul className="space-y-1.5">
                 {edu.achievements.map((a, j) => (
-                  <li key={j} className="font-mono text-sm text-foreground">
-                    <span className="text-primary mr-2">►</span>
+                  <li key={j} className="flex gap-2 prose-text text-sm">
+                    <span className="font-mono text-primary shrink-0">►</span>
                     {a}
                   </li>
                 ))}

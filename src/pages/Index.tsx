@@ -1,4 +1,5 @@
 import { usePortfolio } from "@/hooks/usePortfolio";
+import { SectionNav } from "@/components/SectionNav";
 import { HeroSection } from "@/components/HeroSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { EducationSection } from "@/components/EducationSection";
@@ -33,8 +34,11 @@ const Index = () => {
     <>
       <div className="scanlines" />
       <div className="min-h-screen bg-background">
-        <main className="max-w-5xl mx-auto px-6">
+        <div className="max-w-5xl mx-auto px-6">
           <HeroSection profile={data.profile} />
+        </div>
+        <SectionNav />
+        <main className="max-w-5xl mx-auto px-6">
           <ExperienceSection experience={data.experience} />
           <SkillsSection skills={data.skills} />
           <ProjectsSection projects={data.projects} />

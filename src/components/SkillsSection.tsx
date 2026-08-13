@@ -14,7 +14,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
   ];
 
   return (
-    <section className="py-20">
+    <section id="skills" className="py-20">
       <SectionHeader title="TECHNICAL_SKILLS" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {categories.map((cat, i) => (
@@ -30,7 +30,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
               <div className="terminal-dot terminal-dot-red" />
               <div className="terminal-dot terminal-dot-yellow" />
               <div className="terminal-dot terminal-dot-green" />
-              <span className="ml-2 text-xl font-mono text-muted-foreground">{cat.label}</span>
+              <span className="ml-2 text-xs font-mono text-muted-foreground uppercase tracking-wider">{cat.label}</span>
             </div>
             <div className="p-4 flex flex-wrap gap-2">
               {cat.items.map((item) => (

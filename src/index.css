@@ -52,6 +52,30 @@
     --glow-secondary: 0 0 15px hsl(190 100% 50% / 0.4);
     --glow-accent: 0 0 15px hsl(300 100% 50% / 0.4);
   }
+
+  :root[data-phosphor="amber"] {
+    --foreground: 40 100% 50%;
+    --card-foreground: 40 100% 50%;
+    --popover-foreground: 40 100% 50%;
+
+    --primary: 40 100% 50%;
+    --primary-foreground: 0 0% 2%;
+
+    --muted-foreground: 40 50% 50%;
+
+    --border: 40 100% 50% / 0.3;
+    --input: 40 100% 50% / 0.2;
+    --ring: 40 100% 50%;
+
+    --sidebar-foreground: 40 100% 50%;
+    --sidebar-primary: 40 100% 50%;
+    --sidebar-primary-foreground: 0 0% 2%;
+    --sidebar-accent-foreground: 40 100% 50%;
+    --sidebar-border: 40 100% 50% / 0.2;
+    --sidebar-ring: 40 100% 50%;
+
+    --glow-primary: 0 0 15px hsl(40 100% 50% / 0.4);
+  }
 }
 
 @layer base {
@@ -119,6 +143,19 @@
   .section-header {
     font-family: var(--font-display);
     @apply text-secondary text-sm md:text-base uppercase tracking-tight;
+  }
+
+  .prose-text {
+    font-family: var(--font-mono);
+    @apply leading-relaxed text-foreground/90;
+  }
+
+  .section-nav-link {
+    @apply font-mono text-[11px] uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors;
+  }
+
+  .section-nav-link.active {
+    @apply text-primary glow-text;
   }
 
   .blink-cursor::after {
